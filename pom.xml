@@ -27,11 +27,14 @@
 		<tag/>
 		<url/>
 	</scm>
+
 	<properties>
 		<java.version>11</java.version>
-		<spring-framework.version>5.3.39</spring-framework.version>
+		<spring-framework.version>5.3.39-nofn</spring-framework.version>
 	</properties>
+
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
