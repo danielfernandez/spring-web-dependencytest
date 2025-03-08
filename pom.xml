@@ -10,9 +10,10 @@
 	</parent>
 	<groupId>io.github.danielfernandez</groupId>
 	<artifactId>spring-web-dependencytest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>ci</version>
 	<name>spring-web-dependencytest</name>
 	<description>Test project for spring-web custom dependencies</description>
+	<packaging>war</packaging>
 	<url/>
 	<licenses>
 		<license/>
@@ -41,6 +42,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
